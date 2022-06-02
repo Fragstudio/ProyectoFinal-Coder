@@ -1,5 +1,11 @@
 footer {
-    a:hover {
+    a {
+        display: inline-flex;
+        justify-content: center;
+        margin: 3px;
+        gap: 10px;
+    }
+    .footerLink a:hover {
         color: #e3b200 !important;
     }
 }

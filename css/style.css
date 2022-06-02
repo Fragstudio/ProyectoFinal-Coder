@@ -71,9 +71,16 @@ h1 {
   .inicio img {
     grid-area: img;
     width: 56%;
-    justify-self: center; }
+    justify-self: center;
+    border-radius: 20px; }
 
-footer a:hover {
+footer a {
+  display: inline-flex;
+  justify-content: center;
+  margin: 3px;
+  gap: 10px; }
+
+footer .footerLink a:hover {
   color: #e3b200 !important; }
 
 .nosotros {
@@ -166,7 +173,8 @@ footer a:hover {
     display: grid;
     padding: 10px;
     width: 90%;
-    margin-bottom: 45px; }
+    margin-bottom: 45px;
+    border-radius: 20px; }
   .divProfesores p {
     display: grid;
     align-items: end;
@@ -212,11 +220,12 @@ footer a:hover {
 .baguetteBox-button {
   background-color: #e3b200 !important; }
 
-table {
+.table {
+  padding: 25px;
   text-align: center;
   text-decoration: none;
-  font-size: 150%; }
-  table a {
+  font-size: 120%; }
+  .table a {
     text-decoration: none;
     color: #e3b200; }
 
