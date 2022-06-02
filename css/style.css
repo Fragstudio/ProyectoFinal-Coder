@@ -73,9 +73,6 @@ h1 {
     width: 56%;
     justify-self: center; }
 
-footer a {
-  background-color: rgba(0, 0, 0, 0.2); }
-
 footer a:hover {
   color: #e3b200 !important; }
 
