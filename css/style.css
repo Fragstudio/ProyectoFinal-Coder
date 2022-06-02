@@ -45,6 +45,15 @@ h1 {
   h1 {
     font-size: 28px; } }
 
+@media screen and (max-width: 991px) {
+  header .divNav {
+    display: flex;
+    justify-content: center; }
+    header .divNav ul .nav-link {
+      padding-left: 20px; }
+  h1 {
+    font-size: 26px; } }
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 26px; } }
@@ -54,10 +63,18 @@ h1 {
     font-size: 24px; } }
 
 @media screen and (max-width: 480px) {
+  header img {
+    width: 159px; }
   h1 {
-    font-size: 22px; } }
+    font-size: 16px; } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
+  header img {
+    width: 140px; }
+  header button {
+    display: flex;
+    justify-content: center;
+    width: 22%; }
   h1 {
     font-size: 16px; } }
 
@@ -70,9 +87,23 @@ h1 {
   grid-template-areas: "img"; }
   .inicio img {
     grid-area: img;
-    width: 56%;
+    width: 60%;
     justify-self: center;
     border-radius: 20px; }
+
+@media screen and (max-width: 600px) {
+  .inicio {
+    margin-top: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: "img"; }
+    .inicio img {
+      grid-area: img;
+      width: 80%;
+      justify-self: center;
+      border-radius: 20px; } }
 
 footer a {
   display: inline-flex;
@@ -220,14 +251,34 @@ footer .footerLink a:hover {
 .baguetteBox-button {
   background-color: #e3b200 !important; }
 
-.table {
+.conciertos {
   padding: 25px;
   text-align: center;
   text-decoration: none;
   font-size: 120%; }
-  .table a {
+  .conciertos a {
     text-decoration: none;
     color: #e3b200; }
+
+@media screen and (max-width: 600px) {
+  .conciertos {
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%; }
+    .conciertos a {
+      text-decoration: none;
+      color: #e3b200; } }
+
+@media screen and (max-width: 380px) {
+  .conciertos {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 85%; }
+    .conciertos a {
+      text-decoration: none;
+      color: #e3b200; } }
 
 .font, header, .divProfesores p, form {
   font-size: large;

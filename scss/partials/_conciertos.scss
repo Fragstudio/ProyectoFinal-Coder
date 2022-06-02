@@ -1,10 +1,38 @@
-.table {
+.conciertos {
     padding: 25px;
     text-align: center;
     text-decoration: none;
     font-size: 120%;
+    a{
+    text-decoration: none;
+    color: #e3b200;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .conciertos {
+        padding: 25px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 100%;
         a{
         text-decoration: none;
         color: #e3b200;
         }
     }
+}
+
+@media screen and (max-width: 380px) {
+    .conciertos {
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 85%;
+        a{
+        text-decoration: none;
+        color: #e3b200;
+        }
+    }
+}
